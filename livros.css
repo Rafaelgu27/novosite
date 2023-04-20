@@ -1,0 +1,92 @@
+body{
+	background: #fbe6d0;
+}
+header{
+	background: #f8e4c9;
+}
+#livroCabeca{
+	width: 20%;
+}
+.cabeca{
+	position: relative;
+	left: 25px;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav{
+	position: absolute;
+	top: 65px;
+	left: 775px;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+li{
+	font-size: 27px;
+}
+.imagens-produtos{
+	width: 250px;
+}
+.produtos-valor{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lista li:hover{
+  border-color: #C78C19;
+}
+.lista li:active{
+  border-color: #008C19;
+}
+.lista li:hover h2{
+  font-size: 20px;
+}
+.lista{
+  margin: 30px 0 40px;
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 25px 20px ;
+}
+.produto-descricao{
+  font-size: 20px;
+}
+.preco-produto{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+table{
+  margin: 20px 0 40px;
+  text-align: center;
+  margin-left: 450px;
+}
+thead{
+  background: #f1cfac;
+  color: whithe;
+  font-weight: bold;
+}
+td, th{
+  border:1px solid #000000;
+  padding: 8px 15px;
+  font-size: 20px;
+}

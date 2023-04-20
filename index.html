@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+	<title>BookLovers</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="tarefasite.css">
+</head>
+<body>
+	<header>
+		<div class="cabeca">
+			<img src="livrocabeca.jpg" id="livroCabeca">
+			<nav>
+				<ul>
+					<li><a href="index.html">Registro</a></li>
+					<li><a href="livros.html">Livros</a></li>
+					<li><a href="acessorios.html">Acessórios</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+	</header>
+	 <main>
+      <h1>Contato</h1>
+      <form>
+        <label for="nome"> Nome e Sobrenome</label>
+        <input type="text" id="nome" class="inputpadrao" required>
+        <br>
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" class="inputpadrao" required placeholder="seuemail@dominio.com" required>
+        <br>
+        <label for="telefone" id="telefone"> Telefone</label>
+        <input type="tel" id="telefone" class="inputpadrao" required placeholder="(xx) xxxxx-xxxx" required>
+        <br>
+        <label for="senha"> Senha</label>
+        <input type="text" id="senha" class="inputpadrao" required>
+
+          <legend>Código de verificação por:</legend>
+          <label for= "radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+      </form>
+
+      <input type="submit" value="Enviar formulário" class="enviar">
+
+</body>
+</html>

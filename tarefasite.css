@@ -1,0 +1,82 @@
+body{
+	background: #fbe6d0;
+}
+header{
+	background: #f8e4c9;
+}
+#livroCabeca{
+	width: 20%;
+}
+.cabeca{
+	position: relative;
+	left: 25px;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav{
+	position: absolute;
+	top: 65px;
+	left: 775px;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+  font-weight: bold;
+}
+li{
+	font-size: 27px;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.inputpadrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-color: #e2ccb7; 
+  background:  #FFE4C4;
+  border-radius: 5px;
+}
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+form{
+  margin: 40px 0;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  background: #edd168;
+  transition: 1s all;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0,0,0.2 );
+  margin-bottom: 40px;
+}
+.enviar:hover{
+  background: #e7c136;
+  transform: scale(1.1);
+}
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: #555555;
+  color: whithe;
+  font-weight: bold;
+} 
